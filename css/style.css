@@ -368,7 +368,7 @@ html[dir=rtl] .item {
     color: rgba(0, 0, 0, 1);
     text-decoration: none;
     font-size: 16px;
-    font-family: "regular";
+    font-family: "TajawalRegular";
     transition: all 0.4s ease-in-out;
     max-height: 30px;/*give max height to limit user*/
 }
@@ -385,7 +385,7 @@ html[dir=rtl] .item {
 
 .price-box .first-price {
     color: #000;
-    font-family: "bold";
+    font-family: "TajawalBold";
     font-size: 18px;
 }
 
@@ -596,6 +596,10 @@ footer .c-footer .rights{
     }
     footer .a-footer button{
         margin-top: 20px;
+    }
+    footer .b-footer .col-lg-4 {
+        padding-left: 15px;
+        padding-bottom: 40px;
     }
     .imageSection .imageGrid .firstGrid,
     .imageSection .imageGrid .secondGrid{
